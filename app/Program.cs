@@ -65,9 +65,9 @@ namespace peachserver
             app.UseWordPress(new WordPressConfig()
             {
                 DbHost = "localhost",
-                DbPassword = "password",
+                DbPassword = "openup11",
                 DbUser = "root",
-                DbName = "wordpress",
+                DbName = "wordpressdotnet",
             });
 
             app.UseDefaultFiles();
